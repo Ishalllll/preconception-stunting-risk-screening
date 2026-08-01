@@ -150,5 +150,3 @@ Tinggi ibu (20,6%) dan tinggi ayah (19,5%) menempati dua posisi teratas.
 ## 👤 Author
 
 **Muhammad Faishal Ardiansyah**, [@Ishalllll](https://github.com/Ishalllll)
-
----
