@@ -75,7 +75,7 @@ Pemilihan empat domain mengacu pada **Kepmenkes No. HK.01.07/MENKES/1928/2022 te
 
 ---
 
-## 🔀 Metodologi (Dua Cabang Paralel)
+## 🔀 Metodologi
 
 **Cabang 1: Prediksi**
 1. Pipeline berisi transformer IndeksKemakmuran, IQRCapper, dan Scaler, diikuti classifier.
