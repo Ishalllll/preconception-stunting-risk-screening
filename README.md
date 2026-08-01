@@ -101,7 +101,7 @@ Hasil ARM **tidak dimasukkan ke model** (alasan di bawah). Perannya adalah **men
 
 ## 📊 Hasil
 
-Metrik utama adalah **PR-AUC**, bukan accuracy, karena kelasnya timpang dan yang penting adalah kemampuan menemukan anak berisiko.
+Metrik utama adalah **PR-AUC**, bukan accuracy, karena kelasnya imbalance dan yang penting adalah kemampuan menemukan anak berisiko.
 
 | Model | Test PR-AUC | Recall (ambang) | Precision (ambang) |
 |---|---|---|---|
@@ -110,8 +110,6 @@ Metrik utama adalah **PR-AUC**, bukan accuracy, karena kelasnya timpang dan yang
 | SVM | 0,4283 | 0,590 | 0,380 |
 
 Ambang keputusan Random Forest: **0,418** (dari target recall 0,65). Prevalensi dasar sekitar 0,28.
-
-**Terjemahan praktisnya:** dari sekitar 521 keluarga yang dikunjungi, model menandai 196 anak berisiko, sementara pemilihan acak dengan tenaga yang sama menemukan sekitar 147. Selisih sekitar 49 anak.
 
 **Porsi kepentingan fitur (SHAP), per domain:**
 
@@ -136,9 +134,6 @@ Tinggi ibu (20,6%) dan tinggi ayah (19,5%) menempati dua posisi teratas.
 - **Ambang `ayah_tinggi` (160, 170 cm) belum memiliki sumber primer** dan saat ini dipilih dari klasifikasi umum, bukan pedoman resmi.
 - **Indeks kemakmuran menunjukkan posisi, bukan lintasan.** Indeks disusun dari kualitas material bangunan, yaitu kondisi yang berubah pelan, sehingga klaim pra-kelahirannya bergantung pada asumsi bahwa kualitas hunian 2014 mendekati kondisi 2011 sampai 2013. Uji renovasi menunjukkan asumsi ini masuk akal untuk sebagian besar sampel, tetapi rumah tangga yang membaik dan yang memburuk tetap terlihat sama selama posisi akhirnya sama.
 
----
-
-> **Catatan teknis:** kelas `IQRCapper` dan `IndeksKemakmuran` harus didefinisikan di `transformers.py` **sebelum** pickle dibuat. Kalau didefinisikan di notebook, modulnya tercatat sebagai `__main__` dan `joblib.load` akan gagal di Streamlit. Versi `scikit-learn` juga perlu dipatok persis di `requirements.txt`, karena pickle model bisa gagal dimuat di versi berbeda.
 
 ---
 
