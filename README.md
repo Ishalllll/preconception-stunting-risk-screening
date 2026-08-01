@@ -128,8 +128,6 @@ Tinggi ibu (20,6%) dan tinggi ayah (19,5%) menempati dua posisi teratas.
 
 ## 📝 Keterbatasan
 
-Bagian ini tidak dipendekkan, karena kejujuran metodologis adalah inti proyek.
-
 - **Cross-sectional.** Data satu titik waktu, tidak bisa menunjukkan arah sebab-akibat maupun menelusuri perubahan.
 - **Ketidaksesuaian waktu.** Kondisi tercatat 2014, sedangkan masa kritis sebagian anak terjadi 2011 sampai 2013. Mitigasi: survei yang sama menanyakan riwayat renovasi sejak 2007, dan hitungan menunjukkan kurang dari 1% rumah tangga mengubah sistem pipa airnya, sehingga asumsi kestabilan dapat dipertahankan untuk faktor yang berubah lambat, **tidak untuk yang berubah cepat**.
 - **Faktor setelah kelahiran tidak tercakup.** Pola makan, penyakit berulang, ASI, dan pengasuhan tidak ada di data. Ini batas struktural.
