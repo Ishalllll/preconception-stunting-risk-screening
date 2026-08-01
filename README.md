@@ -101,8 +101,6 @@ Hasil ARM **tidak dimasukkan ke model** (alasan di bawah). Perannya adalah **men
 
 ## 📊 Hasil
 
-> 📌 Angka di bawah berasal dari basis 3.659 baris. Sebuah run bersih (memperbaiki urutan eksekusi sesi pelatihan, menghasilkan 3.672 baris) masih tertunda, dan seluruh angka akan bergeser sedikit setelahnya.
-
 Metrik utama adalah **PR-AUC**, bukan accuracy, karena kelasnya timpang dan yang penting adalah kemampuan menemukan anak berisiko.
 
 | Model | Test PR-AUC | Recall (ambang) | Precision (ambang) |
