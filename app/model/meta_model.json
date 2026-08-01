@@ -1,0 +1,292 @@
+{
+  "ambang": 0.40161027636194524,
+  "target_recall": 0.65,
+  "kolom_input": [
+    "ibu_tinggi",
+    "ibu_pendidikan",
+    "ayah_pendidikan",
+    "ibu_usia_konsepsi",
+    "ayah_tinggi",
+    "urban",
+    "ibu_bekerja",
+    "ayah_merokok",
+    "limbah_dekat_rumah",
+    "tumpukan_sampah",
+    "air_tergenang",
+    "dekat_kandang",
+    "ventilasi_cukup",
+    "dapur_kamar_menyatu",
+    "jumlah_kamar",
+    "bahan_lantai",
+    "bahan_dinding",
+    "air_minum_layak",
+    "air_mck_layak",
+    "air_mck_sama",
+    "jamban_layak",
+    "limbah_aman",
+    "sampah_aman"
+  ],
+  "kolom_setelah_transform": [
+    "ibu_tinggi",
+    "ayah_tinggi",
+    "ibu_usia_konsepsi",
+    "kemakmuran_skor",
+    "ibu_pendidikan",
+    "ayah_pendidikan",
+    "urban",
+    "ibu_bekerja",
+    "ayah_merokok",
+    "limbah_dekat_rumah",
+    "tumpukan_sampah",
+    "air_tergenang",
+    "dekat_kandang",
+    "ventilasi_cukup",
+    "dapur_kamar_menyatu",
+    "air_minum_layak",
+    "air_mck_layak",
+    "air_mck_sama",
+    "jamban_layak",
+    "limbah_aman",
+    "sampah_aman"
+  ],
+  "prevalensi": 0.28171206225680934,
+  "metrik_test": {
+    "pr_auc": 0.4676,
+    "recall": 0.6817,
+    "precision": 0.3897,
+    "f1": 0.4959
+  },
+  "rentang": {
+    "ibu_tinggi": {
+      "min": 128.5,
+      "max": 174.5,
+      "nilai_unik": null,
+      "modus": 151.0
+    },
+    "ibu_pendidikan": {
+      "min": 0.0,
+      "max": 4.0,
+      "nilai_unik": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "modus": 3.0
+    },
+    "ayah_pendidikan": {
+      "min": 0.0,
+      "max": 4.0,
+      "nilai_unik": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "modus": 3.0
+    },
+    "ibu_usia_konsepsi": {
+      "min": 13.166666666666666,
+      "max": 50.0,
+      "nilai_unik": null,
+      "modus": 27.916666666666668
+    },
+    "ayah_tinggi": {
+      "min": 128.5,
+      "max": 198.0,
+      "nilai_unik": null,
+      "modus": 165.0
+    },
+    "urban": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 1.0
+    },
+    "ibu_bekerja": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 0.0
+    },
+    "ayah_merokok": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 1.0
+    },
+    "limbah_dekat_rumah": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 0.0
+    },
+    "tumpukan_sampah": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 0.0
+    },
+    "air_tergenang": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 0.0
+    },
+    "dekat_kandang": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 0.0
+    },
+    "ventilasi_cukup": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 1.0
+    },
+    "dapur_kamar_menyatu": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 0.0
+    },
+    "jumlah_kamar": {
+      "min": 1.0,
+      "max": 35.0,
+      "nilai_unik": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0,
+        16.0,
+        17.0,
+        35.0
+      ],
+      "modus": 5.0
+    },
+    "bahan_lantai": {
+      "min": 1.0,
+      "max": 6.0,
+      "nilai_unik": [
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "modus": 6.0
+    },
+    "bahan_dinding": {
+      "min": 1.0,
+      "max": 3.0,
+      "nilai_unik": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "modus": 3.0
+    },
+    "air_minum_layak": {
+      "min": 0.0,
+      "max": 2.0,
+      "nilai_unik": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "modus": 2.0
+    },
+    "air_mck_layak": {
+      "min": 0.0,
+      "max": 2.0,
+      "nilai_unik": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "modus": 2.0
+    },
+    "air_mck_sama": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 1.0
+    },
+    "jamban_layak": {
+      "min": 0.0,
+      "max": 2.0,
+      "nilai_unik": [
+        0.0,
+        1.0,
+        2.0
+      ],
+      "modus": 2.0
+    },
+    "limbah_aman": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 1.0
+    },
+    "sampah_aman": {
+      "min": 0.0,
+      "max": 1.0,
+      "nilai_unik": [
+        0.0,
+        1.0
+      ],
+      "modus": 1.0
+    }
+  },
+  "n_train": 2570,
+  "n_test": 1102,
+  "n_total": 3672
+}
